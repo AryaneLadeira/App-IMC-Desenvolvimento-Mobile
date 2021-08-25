@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">AppMedidas</string>
     <string name="MainTitle">App IMC</string>
+    <string name="LabelNome">Nome</string>
+    <string name="LabelIdade">Idade</string>
+    <string name="LabelAltura">Altura</string>
+    <string name="LabelPeso">Peso</string>
 </resources>
