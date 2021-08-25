@@ -5,4 +5,5 @@
     <string name="LabelIdade">Idade</string>
     <string name="LabelAltura">Altura</string>
     <string name="LabelPeso">Peso</string>
+    <string name="MainBtn">Calcular</string>
 </resources>
