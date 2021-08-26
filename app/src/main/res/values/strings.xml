@@ -3,7 +3,7 @@
     <string name="MainTitle">App IMC</string>
     <string name="LabelNome">Nome</string>
     <string name="LabelIdade">Idade</string>
-    <string name="LabelAltura">Altura</string>
-    <string name="LabelPeso">Peso</string>
+    <string name="LabelAltura">Altura (cm)</string>
+    <string name="LabelPeso">Peso (kg)</string>
     <string name="MainBtn">Calcular</string>
 </resources>
