@@ -42,6 +42,11 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java/com/example/appmedidas" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.appmedidas" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="AppMedidas.app" />

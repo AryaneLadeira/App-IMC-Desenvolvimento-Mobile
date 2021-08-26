@@ -32,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/edTxtName"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
@@ -53,10 +53,10 @@
         android:text="@string/LabelIdade"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/edTxtName" />
 
     <EditText
-        android:id="@+id/editTextNumber2"
+        android:id="@+id/edTxtNumberAge"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
@@ -75,10 +75,10 @@
         android:layout_marginTop="16dp"
         android:text="@string/LabelAltura"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/edTxtNumberAge" />
 
     <EditText
-        android:id="@+id/editTextNumber3"
+        android:id="@+id/edTxtNumberHeight"
         android:layout_width="170dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
@@ -95,10 +95,10 @@
         android:layout_marginTop="16dp"
         android:text="@string/LabelPeso"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber2" />
+        app:layout_constraintTop_toBottomOf="@+id/edTxtNumberAge" />
 
     <EditText
-        android:id="@+id/editTextNumber4"
+        android:id="@+id/edTxtNumberWeight"
         android:layout_width="0dp"
         android:layout_height="45dp"
         android:layout_marginStart="40dp"
@@ -107,11 +107,11 @@
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/editTextNumber3"
+        app:layout_constraintStart_toEndOf="@+id/edTxtNumberHeight"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCalculate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
