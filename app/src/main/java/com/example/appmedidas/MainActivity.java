@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Pessoa pessoa = new Pessoa(name, weight , height, age);
                 Toast.makeText(getApplicationContext(), "Olá "+name+" , "+age+" anos, "+weight+" kg e "+height+" de altura."+"\n Seu IMC é: "
-                        +pessoa.imc()+" - "+pessoa.resultado(), Toast.LENGTH_LONG).show();
+                        +String.format("%.2f",pessoa.imc())+" - "+pessoa.resultado(), Toast.LENGTH_LONG).show();
             }
         });
     }

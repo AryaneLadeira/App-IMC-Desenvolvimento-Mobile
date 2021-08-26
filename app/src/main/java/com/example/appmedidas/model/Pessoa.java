@@ -11,12 +11,12 @@ public class Pessoa {
     public Pessoa(String nome, double peso, double altura, int idade) {
         this.nome = nome;
         this.peso = peso;
-        this.altura = altura;
+        this.altura = altura/100;
         this.idade = idade;
     }
 
     public double imc(){
-        return peso/(Math.pow(altura, 2));
+        return peso/(altura*altura);
     }
 
     public String resultado(){
